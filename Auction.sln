@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Auction", "Auction\", "{7BB0B82E-C64E-4386-B8E2-B22302055C7D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49982"
+		Debug.AspNetCompiler.PhysicalPath = "Auction\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49982\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49982"
+		Release.AspNetCompiler.PhysicalPath = "Auction\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49982\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49982"
+		SlnRelativePath = "Auction\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AuctionServer", "..\AuctionServer\AuctionServer\", "{6F1C9590-4C0B-4C43-9F5A-8BDAA81C2974}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51551"
+		Debug.AspNetCompiler.PhysicalPath = "..\AuctionServer\AuctionServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51551\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51551"
+		Release.AspNetCompiler.PhysicalPath = "..\AuctionServer\AuctionServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51551\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51551"
+		SlnRelativePath = "..\AuctionServer\AuctionServer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB0B82E-C64E-4386-B8E2-B22302055C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB0B82E-C64E-4386-B8E2-B22302055C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1C9590-4C0B-4C43-9F5A-8BDAA81C2974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1C9590-4C0B-4C43-9F5A-8BDAA81C2974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE396C32-A464-4675-937A-C94D2339632D}
+	EndGlobalSection
+EndGlobal
